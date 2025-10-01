@@ -14,7 +14,7 @@ public class MainApp
         System.out.println("Please enter the first number: ");
         int firstNum = input.nextInt();
 
-        System.out.println("Please enter the second number: ");
+        System.out.println("Please enter the second number : ");
         int secondNum = input.nextInt();
 
         input.nextLine();
