@@ -39,7 +39,13 @@ public class MainApp
             case "multiply" ->
             {
                 Calculator calculator = new Calculator();
-                yield calc.subtract(firstNum, secondNum);
+                yield calc.multiply(firstNum, secondNum);
+            }
+
+            case "divide" ->
+            {
+                Calculator calculator = new Calculator();
+                yield calc.divide(firstNum, secondNum);
             }
 
             default  ->
